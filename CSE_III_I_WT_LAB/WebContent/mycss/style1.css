@@ -1,0 +1,9 @@
+ body{
+ 
+background-size:100%;
+background-repeat: no-repeat; 
+background-color: red;
+text-align: center;
+text-decoration:blink;
+text-transform: uppercase;
+ }

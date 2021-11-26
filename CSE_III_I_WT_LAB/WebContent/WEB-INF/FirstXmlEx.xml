@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE emps [
+<!ELEMENT emps (emp+) >
+<!ELEMENT emp (id,name,sal,dept,company)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT sal (#PCDATA)>
+<!ELEMENT dept (#PCDATA)>
+<!ELEMENT company (#PCDATA)>
+<!ATTLIST dept grade CDATA #REQUIRED
+ block CDATA "A">
+<!ATTLIST id prefix CDATA #IMPLIED>
+<!ENTITY address "Infosys Technoligies, Gachibowli, Hyderabad">
+]>
+<emps>
+ <emp>
+ <id prefix="INF">101</id>
+ <name>Siva</name>
+ <sal>85900</sal>
+ <dept grade="B"> Developer</dept>
+ <company>&lt;&address;&gt;</company>
+</emp>
+<emp>
+ <id>121</id>
+ <name>Suresh</name>
+ <sal>65900</sal>
+ <dept grade="C"> Tester</dept>
+ <company>&quot;&address;&quot;</company>
+</emp>
+<emp>
+ <id>131</id>
+ <name>Ganesh</name>
+ <sal>185900</sal>
+ <dept grade="A">Designer</dept>
+ <company>&apos;&address;&apos;</company>
+</emp>
+</emps>

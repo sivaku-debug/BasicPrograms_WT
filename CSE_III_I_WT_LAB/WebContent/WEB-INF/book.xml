@@ -1,0 +1,40 @@
+<?xml version="1.0"  encoding="UTF-8" standalone="no"  ?>
+<?xml-stylesheet  type = "text/xsl"  href ="mystyle1.xsl" ?>
+<catalog>
+ <book>
+ <title> XML for Web</title> 
+<author>Winston</author>
+<publication>Pearson</publication>
+<edition>8</edition>
+<price>932Rs</price>
+ </book>
+ 
+ <book>
+ <title> XML for Web</title> 
+<author>Winston</author>
+<publication>Pearson</publication>
+<edition>8</edition>
+<price>932Rs</price>
+ </book>
+ <book>
+ <title> XML for Web</title> 
+<author>Winston</author>
+<publication>Pearson</publication>
+<edition>8</edition>
+<price>932Rs</price>
+ </book>
+ <book>
+ <title> XML for Web</title> 
+<author>Winston</author>
+<publication>Pearson</publication>
+<edition>8</edition>
+<price>932Rs</price>
+ </book>
+ <book>
+ <title> XML for Web</title> 
+<author>Winston</author>
+<publication>Pearson</publication>
+<edition>8</edition>
+<price>932Rs</price>
+ </book>
+</catalog>

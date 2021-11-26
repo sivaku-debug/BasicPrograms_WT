@@ -1,0 +1,20 @@
+package com.app.cse;
+import java.sql.*;
+
+public class DBConnection {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Class.forName("com.mysql.jdbc.Driver");
+		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/college","root","root");
+		CallableStatement cs=con.prepareCall("{call insertdata(?,?)}");
+		cs.setInt(1, 101);
+		cs.setString(2, "ram");
+		int i=cs.executeUpdate();
+if(i==1){
+	System.out.println("inserted");
+}else{
+	System.out.println("not insrted");
+}
+	}
+
+}

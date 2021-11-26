@@ -1,0 +1,11 @@
+127.0.0.1 - - [13/Nov/2021:15:38:09 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [13/Nov/2021:15:38:14 +0530] "GET /JspElements/JspUseBeanEx.jsp HTTP/1.1" 500 3179
+0:0:0:0:0:0:0:1 - - [13/Nov/2021:15:38:15 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [13/Nov/2021:15:40:07 +0530] "GET /JspElements/JspUseBeanEx.jsp HTTP/1.1" 500 3119
+127.0.0.1 - - [13/Nov/2021:15:47:26 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [13/Nov/2021:15:47:27 +0530] "GET /JspElements/ HTTP/1.1" 404 975
+0:0:0:0:0:0:0:1 - - [13/Nov/2021:15:47:45 +0530] "GET /JspElements/JspUseBeanEx.jsp HTTP/1.1" 200 288
+0:0:0:0:0:0:0:1 - - [13/Nov/2021:15:48:21 +0530] "GET /JspElements/JspUseBeanEx.jsp HTTP/1.1" 200 288
+0:0:0:0:0:0:0:1 - - [13/Nov/2021:15:48:39 +0530] "GET /JspElements/JspUseBeanEx.jsp HTTP/1.1" 200 288
+0:0:0:0:0:0:0:1 - - [13/Nov/2021:15:48:46 +0530] "GET /JspElements/JspUseBeanEx.jsp HTTP/1.1" 200 287
+0:0:0:0:0:0:0:1 - - [13/Nov/2021:15:49:36 +0530] "GET /JspElements/JspUseBeanEx.jsp HTTP/1.1" 500 3125

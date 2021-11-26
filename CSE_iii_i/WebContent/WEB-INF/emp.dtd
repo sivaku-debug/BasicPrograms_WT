@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT emps (emp+) > 
+<!ELEMENT emp (id,name,sal,dept,company)> 
+<!ELEMENT id (#PCDATA)> 
+<!ELEMENT name (#PCDATA)> 
+<!ELEMENT sal (#PCDATA)> 
+<!ELEMENT dept (#PCDATA)> 
+<!ELEMENT company (#PCDATA)> 
+<!ATTLIST dept grade CDATA #REQUIRED 
+block CDATA "A"> 
+<!ATTLIST id prefix CDATA #IMPLIED> 
+<!ENTITY addr "Infosys Technoligies,Gachibowli,Hyderabad"> 

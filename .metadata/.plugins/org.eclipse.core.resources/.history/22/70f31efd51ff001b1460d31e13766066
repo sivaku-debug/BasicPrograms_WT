@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style type="text/css">
+h1
+{
+color:red;
+text-align:center;
+}
+h2
+{
+color:green;
+text-align:left;
+}
+
+</style>
+
+
+</head>
+<body>
+
+<h1>
+My Web Tech
+</h1>
+<h2>
+TEXT FORMATTING
+</h2>
+
+</body>
+</html>

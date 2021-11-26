@@ -1,0 +1,16 @@
+127.0.0.1 - - [05/Nov/2021:14:11:08 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Nov/2021:14:11:11 +0530] "GET /ServletsPracties/index.html HTTP/1.1" 200 269
+0:0:0:0:0:0:0:1 - - [05/Nov/2021:14:11:13 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [05/Nov/2021:14:11:18 +0530] "POST /ServletsPracties/servlet1 HTTP/1.1" 500 3098
+127.0.0.1 - - [05/Nov/2021:14:13:30 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Nov/2021:14:13:31 +0530] "GET /ServletsPracties/index.html HTTP/1.1" 200 269
+0:0:0:0:0:0:0:1 - - [05/Nov/2021:14:13:32 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [05/Nov/2021:14:13:40 +0530] "POST /ServletsPracties/servlet1 HTTP/1.1" 200 79
+0:0:0:0:0:0:0:1 - - [05/Nov/2021:14:13:43 +0530] "GET /ServletsPracties/servlet2? HTTP/1.1" 405 1065
+0:0:0:0:0:0:0:1 - - [05/Nov/2021:14:15:41 +0530] "POST /ServletsPracties/servlet1 HTTP/1.1" 200 102
+0:0:0:0:0:0:0:1 - - [05/Nov/2021:14:15:42 +0530] "POST /ServletsPracties/servlet2 HTTP/1.1" 200 23
+127.0.0.1 - - [05/Nov/2021:15:13:59 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Nov/2021:15:14:00 +0530] "GET /MVC_1/index.html HTTP/1.1" 200 330
+0:0:0:0:0:0:0:1 - - [05/Nov/2021:15:14:30 +0530] "POST /MVC_1/ControllerServlet HTTP/1.1" 200 641
+0:0:0:0:0:0:0:1 - - [05/Nov/2021:15:14:39 +0530] "POST /MVC_1/ControllerServlet HTTP/1.1" 404 997
+0:0:0:0:0:0:0:1 - - [05/Nov/2021:15:16:58 +0530] "POST /MVC_1/ControllerServlet HTTP/1.1" 404 997

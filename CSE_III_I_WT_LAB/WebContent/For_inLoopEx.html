@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>This is javascript for in example</h1>
+<p>For in used to iterate object properties</p>
+<p id="demo"></p>
+<script type="text/javascript">
+const person={fname:"siva",lName:"kumar",age:30};
+let x="";
+for(let y in person){
+	x+=person[y]+" ";
+	
+}
+document.getElementById("demo").innerHTML=x;
+
+</script>
+
+</body>
+</html>

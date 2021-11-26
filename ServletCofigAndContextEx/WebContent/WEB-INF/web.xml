@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>DemoServlet</servlet-name>
+    <servlet-class>DemoServlet</servlet-class>
+    <init-param>
+      <param-name>driver</param-name>
+      <param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
+    </init-param>
+    <init-param>
+      <param-name>username</param-name>
+      <param-value>system</param-value>
+    </init-param>
+    <init-param>
+      <param-name>password</param-name>
+      <param-value>oracle</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DemoServlet</servlet-name>
+    <url-pattern>/DemoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ContextEx</servlet-name>
+    <servlet-class>com.app.cont.ContextEx</servlet-class>
+  </servlet>
+  
+  
+  <context-param>
+ <param-name>driver</param-name>
+    <param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
+  </context-param>
+  <context-param>
+ <param-name>username</param-name>
+    <param-value>system</param-value>
+  </context-param>
+  <context-param>
+ <param-name>password</param-name>
+    <param-value>oracle</param-value>
+  </context-param>
+ 
+  <servlet-mapping>
+    <servlet-name>ContextEx</servlet-name>
+    <url-pattern>/ContextEx</url-pattern>
+  </servlet-mapping>
+</web-app>

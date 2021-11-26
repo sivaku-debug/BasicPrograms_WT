@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <servlet>
+    <servlet-name>d1</servlet-name>
+    <servlet-class>com.app.vc.ConfEx</servlet-class>
+    <init-param>
+      <param-name>username</param-name>
+      <param-value>sivakumar</param-value>
+    </init-param>
+    <init-param>
+      <param-name>oracleusername</param-name>
+      <param-value>system</param-value>
+    </init-param>
+    <init-param>
+      <param-name>oraclePassword</param-name>
+      <param-value>tiger</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>d1</servlet-name>
+    <url-pattern>/ConfEx</url-pattern>
+  </servlet-mapping>
+</web-app>

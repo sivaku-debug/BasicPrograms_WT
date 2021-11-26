@@ -1,0 +1,25 @@
+@CHARSET "ISO-8859-1";
+
+
+*{
+	background-color: green;
+}
+
+
+#main {
+width: 800px;
+height: 400px;
+padding: 10px;
+background: beige;
+} 
+
+.h1 {
+font-family: fantasy, cursive, serif;
+color: olivedrab;
+border-bottom: 1px dotted darkgreen; 
+} 
+
+#p {
+font-family: sans-serif;
+color: orange;
+}

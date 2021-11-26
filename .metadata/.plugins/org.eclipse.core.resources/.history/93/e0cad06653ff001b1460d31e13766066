@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<!--  CSS text formatting properties is used to format text and style text. 
+CSS text formatting include following properties: 
+1.Text-color 
+2.Text-alignment 
+3.Text-decoration 
+4.Text-transformation 
+5.Text-indentation 
+6.Letter spacing 
+7.Line height 
+8.Text-direction 
+9.Text-shadow 
+10.Word spacing
+1.TEXT COLOR 
+Text-color property is used to set the color of the text. 
+Text-color can be set by using the name “red”, hex value “#ff0000” or by its RGB value“rgb(255, 0, 0).  
+ -->
+
+<style type="text/css">
+h1
+{
+color:red;
+text-align:center;
+text-decoration: underline;
+text-transform: lowercase;
+
+}
+h2
+{
+color:green;
+text-align:left;
+}
+
+h3{
+text-indent: 80px;
+letter-spacing: 4px;
+}
+</style>
+
+
+</head>
+<body>
+
+<h1>
+My Web Tech
+</h1>
+<h2>
+TEXT FORMATTING
+</h2>
+
+<h3>
+This is text formatting properties.<br>
+Text indentation property is used to indent the first line of the paragraph.
+</h3>
+
+
+
+</body>
+</html>

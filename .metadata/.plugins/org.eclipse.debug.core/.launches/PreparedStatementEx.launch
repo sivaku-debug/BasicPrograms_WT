@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/cse_iii_i_A/src/com/app/vce/cse/db/PreparedStatementEx.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.app.vce.cse.db.PreparedStatementEx"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="cse_iii_i_A"/>
+</launchConfiguration>

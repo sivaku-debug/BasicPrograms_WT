@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CSE_III_I_WT_LAB/WebContent/feedback.html&apos; to &apos;feedback_form.html&apos;" description="Rename resource &apos;feedback.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/feedback.html" name="feedback_form.html" stamp="1629124495340" updateReferences="true"/>
+</session>

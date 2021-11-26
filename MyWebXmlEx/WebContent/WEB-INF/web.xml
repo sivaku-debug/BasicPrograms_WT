@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+<servlet>
+<servlet-name>k1</servlet-name>
+<servlet-class>com.vce.cse.web.Servletxx</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>k1</servlet-name>
+<url-pattern>/Servletxx</url-pattern>
+
+</servlet-mapping>
+
+
+<!-- <servlet>
+        <servlet-name>l1</servlet-name>
+        <jsp-file>/hot/diplay_home.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>l1</servlet-name>
+        <url-pattern>/h/*</url-pattern>
+    </servlet-mapping> -->
+</web-app>

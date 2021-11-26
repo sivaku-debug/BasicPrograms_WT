@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Registration form</h1>
+<form action=""  method="post">
+UserName:<input type="text" name="name"><br><br>
+UserName:<input type="text" name="name"><br><br>
+UserName:<input type="text" name="name"><br><br>
+UserName:<input type="text" name="name"><br><br>
+UserName:<input type="text" name="name"><br><br>
+UserName:<input type="text" name="name"><br><br>
+UserName:<input type="submit"  value="submit">&nbsp;&nbsp;&nbsp;
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;
+<button type="cancel" onclick="window.location='http://localhost:8081/MyWebXmlEx/index.html';return false;">Cancel</button>
+&nbsp;&nbsp;
+<input type="button" id="close" onclick="window.close()" /></form>
+</body>
+</html>

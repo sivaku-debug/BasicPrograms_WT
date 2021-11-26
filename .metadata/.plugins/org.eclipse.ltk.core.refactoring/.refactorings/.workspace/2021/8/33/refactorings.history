@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MyWebP&apos; to &apos;CSE_III_I_WT_LAB&apos;" description="Rename resource &apos;MyWebP&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/MyWebP" name="CSE_III_I_WT_LAB" stamp="1628844745501" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MyWebP/WebContent/cssEx1.html&apos; to &apos;cssEx1Normalpage.html&apos;" description="Rename resource &apos;cssEx1.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/cssEx1.html" name="cssEx1Normalpage.html" stamp="1628841487693" updateReferences="true"/>
+</session>

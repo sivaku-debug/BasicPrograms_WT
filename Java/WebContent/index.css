@@ -1,0 +1,11 @@
+*{
+	
+	background-color: red;
+	background-position: center;
+}
+.demo{
+	border-radius:5px;
+	border-width: 20px;
+	border-style:double;
+	
+}

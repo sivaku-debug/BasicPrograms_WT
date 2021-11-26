@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+function forloopEx(){
+	document.write("For loop output")
+	for(i=1;i<=5;i++){
+		document.write(i+"<br\>");
+	}
+}
+
+function whileLoopEx(){
+	document.write("while loop example");
+	var i=1;
+	while(i<=5){
+		document.write(i+"<br\>");
+	}
+	i++;
+}
+
+
+
+
+
+forloopEx();
+
+
+</script>
+</body>
+</html>
